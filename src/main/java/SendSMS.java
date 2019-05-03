@@ -16,7 +16,9 @@ public class SendSMS {
                 new PhoneNumber(fromNumber),
                 messageText).create();
 
-        System.out.println(message.getSid());
+        System.out.println("--------------------------");
+        System.out.println("SMS dispatched to Twilio");
+        System.out.println("Message SID is: " + message.getSid());
 
     }
 
