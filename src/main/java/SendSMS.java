@@ -4,8 +4,8 @@ import com.twilio.type.PhoneNumber;
 
 public class SendSMS {
 
-    public static final String ACCOUNT_SID = "AC5c146aab0735e43bb88e271f3f547f21";
-    public static final String AUTH_TOKEN = "95c065c1c1c080cd9ddeeacaa8420396";
+    public static final String ACCOUNT_SID = "";
+    public static final String AUTH_TOKEN = "";
 
 
     public static void SendTwilioSMS(String recipientNumber, String fromNumber, String messageText){
